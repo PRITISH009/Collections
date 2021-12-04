@@ -1,9 +1,7 @@
-package com.javacollections.collections;
+package com.javacollections.collection;
 
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 // Implements Set interface
 // Duplicate elements are not allowed inside a set

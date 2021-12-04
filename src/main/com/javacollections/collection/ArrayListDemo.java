@@ -1,12 +1,16 @@
-package com.javacollections.collections;
+package com.javacollections.collection;
 
+import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 
-public class ListBasedLinkedList {
+
+// Implements List interface
+public class ArrayListDemo {
+
     public static void main(String[] args) {
-        List<Integer> list = new LinkedList<>();
+
+        List<Integer> list = new ArrayList<>();
 
         // Adding numbers to list
         list.add(1);
@@ -23,7 +27,7 @@ public class ListBasedLinkedList {
         System.out.println(list); // Output -> [1, 50, 2, 3]
 
         // Concatenating 2 separate lists
-        List<Integer> newList = new LinkedList<>();
+        List<Integer> newList = new ArrayList<>();
 
         newList.add(100);
         newList.add(110);
@@ -77,5 +81,7 @@ public class ListBasedLinkedList {
         // To clear all the elements in the list
         list.clear();
         System.out.println(list); // Output -> []
+
     }
+
 }
