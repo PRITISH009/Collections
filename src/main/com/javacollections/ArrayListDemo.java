@@ -1,9 +1,11 @@
-package com.javacollections.listinterface;
+package com.javacollections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+
+// Implements List interface
 public class ArrayListDemo {
 
     public static void main(String[] args) {
